@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" role="img" aria-labelledby="title desc">
+<title id="title">AdvancedFirstPerson modules and rig</title>
+<desc id="desc">Eleven modules of the AdvancedFirstPerson component listed in call order, wired to the prefab transforms they drive: CameraPivot, LeanPivot, MovementFX, CameraAnimations, Camera and the footstep audio source.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F17"/><stop offset="1" stop-color="#121A28"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="1279" height="739" rx="18" fill="url(#bg)" stroke="#1E2A3B"/>
+
+<text x="40" y="50" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="22" font-weight="800" fill="#E6EDF3" text-anchor="start" >AdvancedFirstPerson</text>
+<text x="40" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" fill="#8C9AAD" text-anchor="start" >One MonoBehaviour, eleven serializable modules. Each has an isActive toggle and drives part of the rig.</text>
+<rect x="40" y="112" width="470" height="46" rx="10" fill="#0F1724" stroke="#FF8A3D" stroke-opacity=".45"/>
+<rect x="40" y="112" width="5" height="46" rx="2.5" fill="#FF8A3D"/>
+<text x="60" y="133" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >MovementModule</text>
+<text x="60" y="151" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >walk 3 · sprint 7 · crouch ×0.5</text>
+<rect x="448" y="127" width="42" height="20" rx="10" fill="#FF8A3D" fill-opacity=".85"/><circle cx="480" cy="137" r="7" fill="#0A0F17"/>
+<text x="438" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="162" width="470" height="46" rx="10" fill="#0F1724" stroke="#2DD4F0" stroke-opacity=".45"/>
+<rect x="40" y="162" width="5" height="46" rx="2.5" fill="#2DD4F0"/>
+<text x="60" y="183" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >CameraAnimationModule</text>
+<text x="60" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >moveState −1 … 2 → Animator</text>
+<rect x="448" y="177" width="42" height="20" rx="10" fill="#2DD4F0" fill-opacity=".85"/><circle cx="480" cy="187" r="7" fill="#0A0F17"/>
+<text x="438" y="192" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="212" width="470" height="46" rx="10" fill="#0F1724" stroke="#FF8A3D" stroke-opacity=".45"/>
+<rect x="40" y="212" width="5" height="46" rx="2.5" fill="#FF8A3D"/>
+<text x="60" y="233" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >GravityJumpModule</text>
+<text x="60" y="251" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >gravity −25 · jump 1.5 m · land shake</text>
+<rect x="448" y="227" width="42" height="20" rx="10" fill="#FF8A3D" fill-opacity=".85"/><circle cx="480" cy="237" r="7" fill="#0A0F17"/>
+<text x="438" y="242" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="262" width="470" height="46" rx="10" fill="#0F1724" stroke="#FF8A3D" stroke-opacity=".45"/>
+<rect x="40" y="262" width="5" height="46" rx="2.5" fill="#FF8A3D"/>
+<text x="60" y="283" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >ClimbLadderModule</text>
+<text x="60" y="301" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >layer 7 · ray 1 m · climb 4 m/s</text>
+<rect x="448" y="277" width="42" height="20" rx="10" fill="#FF8A3D" fill-opacity=".85"/><circle cx="480" cy="287" r="7" fill="#0A0F17"/>
+<text x="438" y="292" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="312" width="470" height="46" rx="10" fill="#0F1724" stroke="#FF8A3D" stroke-opacity=".45"/>
+<rect x="40" y="312" width="5" height="46" rx="2.5" fill="#FF8A3D"/>
+<text x="60" y="333" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >CrouchModule</text>
+<text x="60" y="351" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >height 2 → 1 · camera 1.8 → 0.7</text>
+<rect x="448" y="327" width="42" height="20" rx="10" fill="#FF8A3D" fill-opacity=".85"/><circle cx="480" cy="337" r="7" fill="#0A0F17"/>
+<text x="438" y="342" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="362" width="470" height="46" rx="10" fill="#0F1724" stroke="#FF8A3D" stroke-opacity=".45"/>
+<rect x="40" y="362" width="5" height="46" rx="2.5" fill="#FF8A3D"/>
+<text x="60" y="383" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >SlidingModule</text>
+<text x="60" y="401" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >6 m/s for 0.7 s</text>
+<rect x="448" y="377" width="42" height="20" rx="10" fill="#FF8A3D" fill-opacity=".85"/><circle cx="480" cy="387" r="7" fill="#0A0F17"/>
+<text x="438" y="392" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="412" width="470" height="46" rx="10" fill="#0F1724" stroke="#2DD4F0" stroke-opacity=".45"/>
+<rect x="40" y="412" width="5" height="46" rx="2.5" fill="#2DD4F0"/>
+<text x="60" y="433" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >LeaningModule</text>
+<text x="60" y="451" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >Q / E · ±15°</text>
+<rect x="448" y="427" width="42" height="20" rx="10" fill="#2DD4F0" fill-opacity=".85"/><circle cx="480" cy="437" r="7" fill="#0A0F17"/>
+<text x="438" y="442" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="462" width="470" height="46" rx="10" fill="#0F1724" stroke="#2DD4F0" stroke-opacity=".45"/>
+<rect x="40" y="462" width="5" height="46" rx="2.5" fill="#2DD4F0"/>
+<text x="60" y="483" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >MovementFxModule</text>
+<text x="60" y="501" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >tilt ×2 from input &amp; fall speed</text>
+<rect x="448" y="477" width="42" height="20" rx="10" fill="#2DD4F0" fill-opacity=".85"/><circle cx="480" cy="487" r="7" fill="#0A0F17"/>
+<text x="438" y="492" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="512" width="470" height="46" rx="10" fill="#0F1724" stroke="#A78BFA" stroke-opacity=".45"/>
+<rect x="40" y="512" width="5" height="46" rx="2.5" fill="#A78BFA"/>
+<text x="60" y="533" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >FootStepSoundsModule</text>
+<text x="60" y="551" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >0.45 s walk · 0.3 s sprint</text>
+<rect x="448" y="527" width="42" height="20" rx="10" fill="#A78BFA" fill-opacity=".85"/><circle cx="480" cy="537" r="7" fill="#0A0F17"/>
+<text x="438" y="542" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >Update</text>
+<rect x="40" y="574" width="470" height="46" rx="10" fill="#0F1724" stroke="#2DD4F0" stroke-opacity=".45"/>
+<rect x="40" y="574" width="5" height="46" rx="2.5" fill="#2DD4F0"/>
+<text x="60" y="595" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >LookModule</text>
+<text x="60" y="613" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >sensitivity 2 · clamp ±80°</text>
+<rect x="448" y="589" width="42" height="20" rx="10" fill="#2DD4F0" fill-opacity=".85"/><circle cx="480" cy="599" r="7" fill="#0A0F17"/>
+<text x="438" y="604" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >LateUpdate</text>
+<rect x="40" y="636" width="470" height="46" rx="10" fill="#0F1724" stroke="#F472B6" stroke-opacity=".45"/>
+<rect x="40" y="636" width="5" height="46" rx="2.5" fill="#F472B6"/>
+<text x="60" y="657" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >PushModule</text>
+<text x="60" y="675" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="start" >impulse 3 on rigidbodies</text>
+<rect x="448" y="651" width="42" height="20" rx="10" fill="#F472B6" fill-opacity=".85"/><circle cx="480" cy="661" r="7" fill="#0A0F17"/>
+<text x="438" y="666" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="600" fill="#4A586C" text-anchor="end" >OnControllerColliderHit</text>
+<text x="40" y="100" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#4A586C" text-anchor="start" letter-spacing="2">MODULES · CALL ORDER</text>
+<text x="720" y="100" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#4A586C" text-anchor="start" letter-spacing="2">PREFAB RIG</text>
+<path d="M510 135 C620 135 600 150 710 150" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 185 C620 185 704 446 814 446" fill="none" stroke="#2DD4F0" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 235 C620 235 600 150 710 150" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 235 C620 235 730 520 840 520" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 285 C620 285 600 150 710 150" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 335 C620 335 600 150 710 150" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 335 C620 335 626 224 736 224" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 385 C620 385 600 150 710 150" fill="none" stroke="#FF8A3D" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 435 C620 435 652 298 762 298" fill="none" stroke="#2DD4F0" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 485 C620 485 678 372 788 372" fill="none" stroke="#2DD4F0" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 535 C620 535 626 612 736 612" fill="none" stroke="#A78BFA" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 597 C620 597 626 224 736 224" fill="none" stroke="#2DD4F0" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 597 C620 597 600 150 710 150" fill="none" stroke="#2DD4F0" stroke-opacity=".38" stroke-width="1.6"/>
+<path d="M510 659 C620 659 600 150 710 150" fill="none" stroke="#F472B6" stroke-opacity=".38" stroke-width="1.6"/>
+<circle cx="720" cy="150" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="734" y="155" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >ModulerFirstPersonController</text>
+<rect x="734" y="164" width="145.4" height="20" rx="10.0" fill="#7A8799" fill-opacity=".14" stroke="#7A8799" stroke-opacity=".55"/><text x="806.7" y="177.96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#7A8799" text-anchor="middle" >CharacterController</text>
+<rect x="885.4" y="164" width="145.4" height="20" rx="10.0" fill="#FF8A3D" fill-opacity=".14" stroke="#FF8A3D" stroke-opacity=".55"/><text x="958.1" y="177.96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#FF8A3D" text-anchor="middle" >AdvancedFirstPerson</text>
+<text x="1240" y="155" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >yaw · move</text>
+<path d="M720 158 V224 H738" fill="none" stroke="#2A3A52" stroke-width="1.5"/>
+<circle cx="746" cy="224" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="760" y="229" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >CameraPivot</text>
+<text x="1240" y="229" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >pitch · height 1.8 m</text>
+<path d="M746 232 V298 H764" fill="none" stroke="#2A3A52" stroke-width="1.5"/>
+<circle cx="772" cy="298" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="786" y="303" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >LeanPivot</text>
+<text x="1240" y="303" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >roll · y −1</text>
+<path d="M772 306 V372 H790" fill="none" stroke="#2A3A52" stroke-width="1.5"/>
+<circle cx="798" cy="372" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="812" y="377" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >MovementFX</text>
+<text x="1240" y="377" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >tilt · y +1</text>
+<path d="M798 380 V446 H816" fill="none" stroke="#2A3A52" stroke-width="1.5"/>
+<circle cx="824" cy="446" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="838" y="451" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >CameraAnimations</text>
+<rect x="838" y="460" width="72.8" height="20" rx="10.0" fill="#2DD4F0" fill-opacity=".14" stroke="#2DD4F0" stroke-opacity=".55"/><text x="874.4" y="473.96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#2DD4F0" text-anchor="middle" >Animator</text>
+<text x="1240" y="451" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >Idle/Walk/Run clips</text>
+<path d="M824 454 V520 H842" fill="none" stroke="#2A3A52" stroke-width="1.5"/>
+<circle cx="850" cy="520" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="864" y="525" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Camera</text>
+<rect x="864" y="534" width="59.6" height="20" rx="10.0" fill="#7A8799" fill-opacity=".14" stroke="#7A8799" stroke-opacity=".55"/><text x="893.8" y="547.96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#7A8799" text-anchor="middle" >Camera</text>
+<rect x="929.6" y="534" width="59.6" height="20" rx="10.0" fill="#F472B6" fill-opacity=".14" stroke="#F472B6" stroke-opacity=".55"/><text x="959.4" y="547.96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#F472B6" text-anchor="middle" >Shaker</text>
+<text x="1240" y="525" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >land shake</text>
+<path d="M720 158 V612 H738" fill="none" stroke="#2A3A52" stroke-width="1.5"/>
+<circle cx="746" cy="612" r="6" fill="#0A0F17" stroke="#E6EDF3" stroke-width="2"/>
+<text x="760" y="617" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >FootStep Audio Source</text>
+<rect x="760" y="626" width="92.6" height="20" rx="10.0" fill="#7A8799" fill-opacity=".14" stroke="#7A8799" stroke-opacity=".55"/><text x="806.3" y="639.96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#7A8799" text-anchor="middle" >AudioSource</text>
+<text x="1240" y="617" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#8C9AAD" text-anchor="end" >step clips</text>
+</svg>

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="664" viewBox="0 0 1280 664" role="img" aria-labelledby="title desc">
+<title id="title">Movement mechanics</title>
+<desc id="desc">Six animated panels: sprint with the camera blend tree, crouch, slide, lean, jump with landing shake, and ladder climbing, using the values saved in the prefab.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F17"/><stop offset="1" stop-color="#121A28"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="1279" height="663" rx="18" fill="url(#bg)" stroke="#1E2A3B"/>
+
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#34D399"/></marker></defs>
+<g transform="translate(24 24)">
+<rect x="0" y="0" width="400" height="300" rx="14" fill="#0E1520" stroke="#1E2A3B"/>
+<text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EDF3" text-anchor="start" >Sprint · camera blend</text>
+<rect x="326" y="18" width="54" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="326" y="15" width="54" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="326" y="15" width="54" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="326" y="15" width="54" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.4000;0.4020;0.7200;0.7220;1.0000" dur="5.0s" repeatCount="indefinite"/></rect>
+<text x="353" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Shift</text>
+<rect x="290" y="18" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="290" y="15" width="30" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="290" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="290" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.1000;0.1020;0.8400;0.8420;1.0000" dur="5.0s" repeatCount="indefinite"/></rect>
+<text x="305" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >W</text>
+<line x1="20" y1="236" x2="380" y2="236" stroke="#223044"/>
+<text x="20" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Shift sprints at 7 m/s (walk 3 m/s). The camera</text>
+<text x="20" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Animator blends Idle → Walk → Run clips.</text>
+<line x1="44" y1="128" x2="356" y2="128" stroke="#2D3A4F" stroke-width="4" stroke-linecap="round"/>
+<text x="44" y="106" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#4A586C" text-anchor="start" >camera Animator · moveState</text>
+<circle cx="44" cy="128" r="5" fill="#0A0F17" stroke="#2DD4F0" stroke-width="2"/>
+<text x="44" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#2DD4F0" text-anchor="middle" >CrouchWalk</text>
+<text x="44" y="168" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="500" fill="#4A586C" text-anchor="middle" >-1</text>
+<circle cx="148" cy="128" r="5" fill="#0A0F17" stroke="#7A8799" stroke-width="2"/>
+<text x="148" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#7A8799" text-anchor="middle" >Idle</text>
+<text x="148" y="168" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="500" fill="#4A586C" text-anchor="middle" >0</text>
+<circle cx="252" cy="128" r="5" fill="#0A0F17" stroke="#34D399" stroke-width="2"/>
+<text x="252" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#34D399" text-anchor="middle" >Walk</text>
+<text x="252" y="168" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="500" fill="#4A586C" text-anchor="middle" >1</text>
+<circle cx="356" cy="128" r="5" fill="#0A0F17" stroke="#FF8A3D" stroke-width="2"/>
+<text x="356" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#FF8A3D" text-anchor="middle" >Run</text>
+<text x="356" y="168" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" font-weight="500" fill="#4A586C" text-anchor="middle" >2</text>
+<circle cx="148" cy="128" r="9" fill="#FF8A3D" fill-opacity=".9" stroke="#0A0F17" stroke-width="2"><animate attributeName="cx" values="148;148;252;252;356;356;252;148;148" keyTimes="0.0000;0.1000;0.1600;0.4000;0.4500;0.7200;0.7700;0.8600;1.0000" dur="5.0s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/></circle>
+<g opacity="1"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.0000;0.1300;0.8300;1.0000" dur="5.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#7A8799" text-anchor="end" >0 m/s</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.1300;0.4200;0.7500;0.8300" dur="5.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#34D399" text-anchor="end" >3 m/s</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.4200;0.7500" dur="5.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#FF8A3D" text-anchor="end" >7 m/s</text></g>
+<text x="24" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#4A586C" text-anchor="start" >speed</text>
+</g>
+<g transform="translate(440 24)">
+<rect x="0" y="0" width="400" height="300" rx="14" fill="#0E1520" stroke="#1E2A3B"/>
+<text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EDF3" text-anchor="start" >Crouch</text>
+<rect x="333.2" y="18" width="46.8" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="333.2" y="15" width="46.8" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="333.2" y="15" width="46.8" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="333.2" y="15" width="46.8" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.1500;0.1525;0.7000;0.7025;1.0000" dur="4.0s" repeatCount="indefinite"/></rect>
+<text x="356.6" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Ctrl</text>
+<line x1="20" y1="236" x2="380" y2="236" stroke="#223044"/>
+<text x="20" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Hold Ctrl: capsule 2 → 1 m, camera 1.8 → 0.7 m,</text>
+<text x="20" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >speed 1.5 m/s. A 1 m ray blocks standing up.</text>
+<line x1="20" y1="214" x2="380" y2="214" stroke="#2D3A4F" stroke-width="2"/>
+<rect x="150" y="94" width="48" height="120" rx="24" fill="#FF8A3D" fill-opacity=".16" stroke="#FF8A3D" stroke-width="2"><animate attributeName="y" values="94;94;154;154;94;94" keyTimes="0.0000;0.1500;0.2750;0.7000;0.8250;1.0000" dur="4.0s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/><animate attributeName="height" values="120;120;60;60;120;120" keyTimes="0.0000;0.1500;0.2750;0.7000;0.8250;1.0000" dur="4.0s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/></rect>
+<circle cx="184" cy="106" r="4.5" fill="#2DD4F0"><animate attributeName="cy" values="106;106;172;172;106;106" keyTimes="0.0000;0.1500;0.2750;0.7000;0.8250;1.0000" dur="4.0s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/></circle>
+<line x1="174" y1="154" x2="174" y2="94" stroke="#34D399" stroke-width="2" stroke-dasharray="4 4" opacity=".9"/>
+<g stroke="#4A586C" stroke-width="1.2"><line x1="124" y1="214" x2="124" y2="94"/><line x1="118" y1="94" x2="130" y2="94"/><line x1="118" y1="154" x2="130" y2="154"/></g>
+<text x="112" y="98" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#8C9AAD" text-anchor="end" >2.0 m</text>
+<text x="112" y="158" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#8C9AAD" text-anchor="end" >1.0 m</text>
+<text x="210" y="90" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#34D399" text-anchor="start" >stand-up ray 1 m</text>
+<g opacity="1"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.0000;0.2125;0.7625;1.0000" dur="4.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="120" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#2DD4F0" text-anchor="end" >cam 1.8 m</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2125;0.7625" dur="4.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="120" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#2DD4F0" text-anchor="end" >cam 0.7 m</text></g>
+<g opacity="1"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0.0000;0.0000;0.2125;0.7625;1.0000" dur="4.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="end" >3 m/s</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.2125;0.7625" dur="4.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="end" >1.5 m/s</text></g>
+</g>
+<g transform="translate(856 24)">
+<rect x="0" y="0" width="400" height="300" rx="14" fill="#0E1520" stroke="#1E2A3B"/>
+<text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EDF3" text-anchor="start" >Slide</text>
+<rect x="350" y="18" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.1905;0.1929;0.2500;0.2524;1.0000" dur="4.2s" repeatCount="indefinite"/></rect>
+<text x="365" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >C</text>
+<rect x="290" y="18" width="54" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="290" y="15" width="54" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="290" y="15" width="54" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="290" y="15" width="54" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.0000;0.0024;0.3571;0.3595;1.0000" dur="4.2s" repeatCount="indefinite"/></rect>
+<text x="317" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Shift</text>
+<line x1="20" y1="236" x2="380" y2="236" stroke="#223044"/>
+<text x="20" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Press C while sprinting on the ground: drop into</text>
+<text x="20" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >a crouch and slide forward at 6 m/s for 0.7 s.</text>
+<line x1="20" y1="214" x2="380" y2="214" stroke="#2D3A4F" stroke-width="2"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;60 0;290 0;296 0;296 0;296 0" keyTimes="0.0000;0.1905;0.3571;0.4762;0.8810;1.0000" dur="4.2s"  repeatCount="indefinite"/><rect x="20" y="94" width="48" height="120" rx="24" fill="#FF8A3D" fill-opacity=".16" stroke="#FF8A3D" stroke-width="2"><animate attributeName="y" values="94;94;154;154;94;94" keyTimes="0.0000;0.1905;0.2738;0.3571;0.4762;1.0000" dur="4.2s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/><animate attributeName="height" values="120;120;60;60;120;120" keyTimes="0.0000;0.1905;0.2738;0.3571;0.4762;1.0000" dur="4.2s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/></rect><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2024;0.2262;0.3452;0.3690;1.0000" dur="4.2s" repeatCount="indefinite"/><line x1="-32" y1="204" x2="12" y2="204" stroke="#FFC24B" stroke-width="2" stroke-linecap="round"/><line x1="-50" y1="194" x2="12" y2="194" stroke="#FFC24B" stroke-width="2" stroke-linecap="round"/><line x1="-22" y1="184" x2="12" y2="184" stroke="#FFC24B" stroke-width="2" stroke-linecap="round"/></g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1905;0.2024;0.3810;0.3929;1.0000" dur="4.2s" repeatCount="indefinite"/><text x="376" y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#FFC24B" text-anchor="end" >6 m/s · 0.7 s</text><text x="376" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#8C9AAD" text-anchor="end" >crouched while sliding</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0.0000;0.0119;0.1905;0.2024;1.0000" dur="4.2s" repeatCount="indefinite"/><text x="376" y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="end" >sprint 7 m/s</text></g>
+<rect x="0" y="84" width="400" height="130" fill="#0E1520" opacity="0"><animate attributeName="opacity" values="1;0;0;1" keyTimes="0.0000;0.0357;0.9167;1.0000" dur="4.2s" repeatCount="indefinite"/></rect>
+</g>
+<g transform="translate(24 340)">
+<rect x="0" y="0" width="400" height="300" rx="14" fill="#0E1520" stroke="#1E2A3B"/>
+<text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EDF3" text-anchor="start" >Lean</text>
+<rect x="350" y="18" width="30" height="28" rx="9" fill="#2DD4F0" opacity=".28"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#141C29" stroke="#2DD4F0" stroke-width="1.5"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#2DD4F0" opacity=".13"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#2DD4F0" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.5600;0.5620;0.8800;0.8820;1.0000" dur="5.0s" repeatCount="indefinite"/></rect>
+<text x="365" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#2DD4F0" text-anchor="middle" >E</text>
+<rect x="314" y="18" width="30" height="28" rx="9" fill="#2DD4F0" opacity=".28"/>
+<rect x="314" y="15" width="30" height="28" rx="9" fill="#141C29" stroke="#2DD4F0" stroke-width="1.5"/>
+<rect x="314" y="15" width="30" height="28" rx="9" fill="#2DD4F0" opacity=".13"/>
+<rect x="314" y="15" width="30" height="28" rx="9" fill="#2DD4F0" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.0800;0.0820;0.4000;0.4020;1.0000" dur="5.0s" repeatCount="indefinite"/></rect>
+<text x="329" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#2DD4F0" text-anchor="middle" >Q</text>
+<line x1="20" y1="236" x2="380" y2="236" stroke="#223044"/>
+<text x="20" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Hold Q / E to lean ±15°. The rig pivots 0.8 m</text>
+<text x="20" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >above the feet, so the head swings sideways.</text>
+<line x1="20" y1="214" x2="380" y2="214" stroke="#2D3A4F" stroke-width="2"/>
+<rect x="176.0" y="94" width="48" height="120" rx="24" fill="none" stroke="#4A586C" stroke-width="1.5" stroke-dasharray="5 5"/>
+<path d="M184.47 94.04 A74 74 0 0 1 215.53 94.04" fill="none" stroke="#2DD4F0" stroke-opacity=".45" stroke-dasharray="3 4"/>
+<text x="234" y="82" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#2DD4F0" text-anchor="start" >±15°</text>
+<g><animateTransform attributeName="transform" type="rotate" values="0 200 166;0 200 166;-15 200 166;-15 200 166;0 200 166;0 200 166;15 200 166;15 200 166;0 200 166;0 200 166" keyTimes="0.0000;0.0800;0.1800;0.4000;0.5000;0.5600;0.6600;0.8800;0.9800;1.0000" dur="5.0s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/><line x1="200" y1="166" x2="200" y2="106" stroke="#2DD4F0" stroke-width="3" stroke-linecap="round"/><circle cx="200" cy="106" r="9" fill="#2DD4F0" fill-opacity=".2" stroke="#2DD4F0" stroke-width="2"/><circle cx="200" cy="106" r="3" fill="#2DD4F0"/></g>
+<circle cx="200" cy="166" r="5" fill="#FF8A3D"/>
+<text x="214" y="170" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#FF8A3D" text-anchor="start" >LeanPivot 0.8 m</text>
+<text x="24" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#4A586C" text-anchor="start" >view from behind</text>
+</g>
+<g transform="translate(440 340)">
+<rect x="0" y="0" width="400" height="300" rx="14" fill="#0E1520" stroke="#1E2A3B"/>
+<text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EDF3" text-anchor="start" >Jump · land shake</text>
+<rect x="326" y="18" width="54" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="326" y="15" width="54" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="326" y="15" width="54" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="326" y="15" width="54" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.2000;0.2033;0.2667;0.2700;1.0000" dur="3.0s" repeatCount="indefinite"/></rect>
+<text x="353" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Space</text>
+<line x1="20" y1="236" x2="380" y2="236" stroke="#223044"/>
+<text x="20" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Space jumps 1.5 m (1 m crouched). Landing plays</text>
+<text x="20" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >a footstep and a 0.2 s camera shake (Shaker).</text>
+<line x1="20" y1="214" x2="380" y2="214" stroke="#2D3A4F" stroke-width="2"/>
+<line x1="143" y1="74" x2="257" y2="74" stroke="#4A586C" stroke-dasharray="4 5"/>
+<text x="263" y="78" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#8C9AAD" text-anchor="start" >1.5 m</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -60;0 0;0 0" keyTimes="0;0.2000;0.3153;0.4307;1" calcMode="spline" keySplines="0 0 1 1;0 0 .58 1;.42 0 1 1;0 0 1 1" dur="3.0s" repeatCount="indefinite"/><rect x="183" y="134" width="34" height="80" rx="17" fill="#FF8A3D" fill-opacity=".16" stroke="#FF8A3D" stroke-width="2"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;3 0;-3 0;2 0;-2 0;1 0;0 0;0 0" keyTimes="0.0000;0.4307;0.4418;0.4529;0.4640;0.4751;0.4862;0.4973;1.0000" dur="3.0s" repeatCount="indefinite"/><circle cx="207" cy="142" r="4" fill="#2DD4F0"/></g></g>
+<ellipse cx="200" cy="214" rx="32" ry="6" fill="none" stroke="#FFC24B" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.4307;0.4373;0.5473;1.0000" dur="3.0s" repeatCount="indefinite"/></ellipse>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4307;0.4373;0.7307;0.7473;1.0000" dur="3.0s" repeatCount="indefinite"/><text x="376" y="168" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#FFC24B" text-anchor="end" >land shake 0.2 s</text></g>
+<text x="376" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#8C9AAD" text-anchor="end" >gravity −25</text>
+</g>
+<g transform="translate(856 340)">
+<rect x="0" y="0" width="400" height="300" rx="14" fill="#0E1520" stroke="#1E2A3B"/>
+<text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EDF3" text-anchor="start" >Ladder</text>
+<rect x="350" y="18" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="350" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.5200;0.5220;0.8200;0.8220;1.0000" dur="5.0s" repeatCount="indefinite"/></rect>
+<text x="365" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >S</text>
+<rect x="314" y="18" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="314" y="15" width="30" height="28" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="314" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity=".13"/>
+<rect x="314" y="15" width="30" height="28" rx="9" fill="#FF8A3D" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0.0000;0.1000;0.1020;0.4000;0.4020;1.0000" dur="5.0s" repeatCount="indefinite"/></rect>
+<text x="329" y="33.32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >W</text>
+<line x1="20" y1="236" x2="380" y2="236" stroke="#223044"/>
+<text x="20" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >Face a ladder on the climbable layer within 1 m:</text>
+<text x="20" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >W / S move you straight up or down at 4 m/s.</text>
+<line x1="20" y1="214" x2="380" y2="214" stroke="#2D3A4F" stroke-width="2"/>
+<rect x="218" y="52" width="20" height="162" fill="#1C2639" stroke="#3B4C6B"/>
+<line x1="196" y1="58" x2="196" y2="214" stroke="#FFC24B" stroke-width="2.5"/>
+<line x1="214" y1="58" x2="214" y2="214" stroke="#FFC24B" stroke-width="2.5"/>
+<line x1="196" y1="70" x2="214" y2="70" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="90" x2="214" y2="90" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="110" x2="214" y2="110" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="130" x2="214" y2="130" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="150" x2="214" y2="150" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="170" x2="214" y2="170" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="190" x2="214" y2="190" stroke="#FFC24B" stroke-width="2"/>
+<line x1="196" y1="210" x2="214" y2="210" stroke="#FFC24B" stroke-width="2"/>
+<text x="205" y="48" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#FFC24B" text-anchor="middle" >layer 7</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -66;0 -66;0 0;0 0" keyTimes="0.0000;0.1000;0.4000;0.5200;0.8200;1.0000" dur="5.0s" calcMode="spline" keySplines=".45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1;.45 0 .25 1" repeatCount="indefinite"/><rect x="104" y="94" width="48" height="120" rx="24" fill="#FF8A3D" fill-opacity=".16" stroke="#FF8A3D" stroke-width="2"/><line x1="128.0" y1="154" x2="188.0" y2="154" stroke="#34D399" stroke-width="2" marker-end="url(#arr)"/><circle cx="128.0" cy="154" r="3.5" fill="#34D399"/></g>
+<text x="376" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#34D399" text-anchor="end" >ray 1 m · mid-height</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.1000;0.4000" dur="5.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#FF8A3D" text-anchor="end" >W · up 4 m/s</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5200;0.8200" dur="5.0s" calcMode="discrete" repeatCount="indefinite"/><text x="376" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#FF8A3D" text-anchor="end" >S · down 4 m/s</text></g>
+<text x="376" y="168" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#8C9AAD" text-anchor="end" >gravity off</text>
+</g>
+</svg>

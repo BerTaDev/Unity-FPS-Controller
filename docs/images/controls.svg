@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="392" viewBox="0 0 1280 392" role="img" aria-labelledby="title desc">
+<title id="title">Controls</title>
+<desc id="desc">Keyboard and mouse bindings: WASD move, mouse look, Shift sprint, Ctrl crouch, C slide, Space jump, Q and E lean.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F17"/><stop offset="1" stop-color="#121A28"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="1279" height="391" rx="18" fill="url(#bg)" stroke="#1E2A3B"/>
+
+<text x="44" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#8C9AAD" text-anchor="start" letter-spacing="3">CONTROLS</text>
+<rect x="44" y="56" width="562" height="300" rx="16" fill="#0C121C" stroke="#1B2636"/>
+<rect x="60" y="75" width="82" height="60" rx="9" fill="#070B11"/>
+<rect x="60" y="72" width="82" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="101" y="106.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#56637A" text-anchor="middle" >Tab</text>
+<rect x="150" y="75" width="60" height="60" rx="9" fill="#2DD4F0" opacity=".28"/>
+<rect x="150" y="72" width="60" height="60" rx="9" fill="#141C29" stroke="#2DD4F0" stroke-width="1.5"/>
+<rect x="150" y="72" width="60" height="60" rx="9" fill="#2DD4F0" opacity=".13"/>
+<text x="180" y="101.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#2DD4F0" text-anchor="middle" >Q</text>
+<text x="180" y="123" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#2DD4F0" text-anchor="middle" opacity=".85">lean ◀</text>
+<rect x="218" y="75" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="218" y="72" width="60" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="218" y="72" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="248" y="107.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="middle" >W</text>
+<rect x="286" y="75" width="60" height="60" rx="9" fill="#2DD4F0" opacity=".28"/>
+<rect x="286" y="72" width="60" height="60" rx="9" fill="#141C29" stroke="#2DD4F0" stroke-width="1.5"/>
+<rect x="286" y="72" width="60" height="60" rx="9" fill="#2DD4F0" opacity=".13"/>
+<text x="316" y="101.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#2DD4F0" text-anchor="middle" >E</text>
+<text x="316" y="123" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#2DD4F0" text-anchor="middle" opacity=".85">lean ▶</text>
+<rect x="354" y="75" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="354" y="72" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="384" y="107.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >R</text>
+<rect x="422" y="75" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="422" y="72" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="452" y="107.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >T</text>
+<rect x="490" y="75" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="490" y="72" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="520" y="107.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >Y</text>
+<rect x="60" y="143" width="100" height="60" rx="9" fill="#070B11"/>
+<rect x="60" y="140" width="100" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="110" y="174.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#56637A" text-anchor="middle" >Caps</text>
+<rect x="168" y="143" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="168" y="140" width="60" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="168" y="140" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="198" y="175.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="middle" >A</text>
+<rect x="236" y="143" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="236" y="140" width="60" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="236" y="140" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="266" y="175.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="middle" >S</text>
+<rect x="304" y="143" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="304" y="140" width="60" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="304" y="140" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="334" y="175.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="middle" >D</text>
+<rect x="372" y="143" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="372" y="140" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="402" y="175.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >F</text>
+<rect x="440" y="143" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="440" y="140" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="470" y="175.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >G</text>
+<rect x="508" y="143" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="508" y="140" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="538" y="175.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >H</text>
+<rect x="60" y="211" width="128" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="60" y="208" width="128" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="60" y="208" width="128" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="124" y="236.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Shift</text>
+<text x="124" y="259" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#FF8A3D" text-anchor="middle" opacity=".85">sprint</text>
+<rect x="196" y="211" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="196" y="208" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="226" y="243.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >Z</text>
+<rect x="264" y="211" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="264" y="208" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="294" y="243.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >X</text>
+<rect x="332" y="211" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="332" y="208" width="60" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="332" y="208" width="60" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="362" y="237.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#FF8A3D" text-anchor="middle" >C</text>
+<text x="362" y="259" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#FF8A3D" text-anchor="middle" opacity=".85">slide</text>
+<rect x="400" y="211" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="400" y="208" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="430" y="243.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >V</text>
+<rect x="468" y="211" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="468" y="208" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="498" y="243.4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#56637A" text-anchor="middle" >B</text>
+<rect x="60" y="279" width="82" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="60" y="276" width="82" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="60" y="276" width="82" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="101" y="304.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Ctrl</text>
+<text x="101" y="327" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#FF8A3D" text-anchor="middle" opacity=".85">crouch</text>
+<rect x="150" y="279" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="150" y="276" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="180" y="310.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#56637A" text-anchor="middle" >Win</text>
+<rect x="218" y="279" width="60" height="60" rx="9" fill="#070B11"/>
+<rect x="218" y="276" width="60" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="248" y="310.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#56637A" text-anchor="middle" >Alt</text>
+<rect x="286" y="279" width="244" height="60" rx="9" fill="#FF8A3D" opacity=".28"/>
+<rect x="286" y="276" width="244" height="60" rx="9" fill="#141C29" stroke="#FF8A3D" stroke-width="1.5"/>
+<rect x="286" y="276" width="244" height="60" rx="9" fill="#FF8A3D" opacity=".13"/>
+<text x="408" y="304.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Space</text>
+<text x="408" y="327" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#FF8A3D" text-anchor="middle" opacity=".85">jump</text>
+<rect x="538" y="279" width="52" height="60" rx="9" fill="#070B11"/>
+<rect x="538" y="276" width="52" height="60" rx="9" fill="#121A26" stroke="#222E40"/>
+<text x="564" y="310.68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#56637A" text-anchor="middle" >Alt</text>
+<g fill="none" stroke="#2DD4F0" stroke-width="1.6"><rect x="676" y="112" width="96" height="150" rx="48" fill="#2DD4F0" fill-opacity=".08"/><line x1="724" y1="112" x2="724" y2="170"/><path d="M678 170 H770"/><rect x="719" y="128" width="10" height="24" rx="5" fill="#2DD4F0" fill-opacity=".35"/></g>
+<path d="M-7 4 L0 -4 L7 4" transform="translate(724 90) rotate(0)" fill="none" stroke="#2DD4F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-7 4 L0 -4 L7 4" transform="translate(724 284) rotate(180)" fill="none" stroke="#2DD4F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-7 4 L0 -4 L7 4" transform="translate(654 187) rotate(-90)" fill="none" stroke="#2DD4F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-7 4 L0 -4 L7 4" transform="translate(794 187) rotate(90)" fill="none" stroke="#2DD4F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="724" y="326" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#2DD4F0" text-anchor="middle" >look</text>
+<line x1="800" y1="60" x2="800" y2="352" stroke="#1B2636"/>
+<rect x="836" y="74" width="26" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="849" y="91.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >W</text>
+<rect x="867" y="74" width="26" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="880" y="91.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >A</text>
+<rect x="898" y="74" width="26" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="911" y="91.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >S</text>
+<rect x="929" y="74" width="26" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="942" y="91.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >D</text>
+<text x="978" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Move</text>
+<text x="1058" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >walk 3 m/s · W/S on ladders</text>
+<rect x="836" y="114" width="52" height="26" rx="6" fill="#2DD4F0" fill-opacity=".12" stroke="#2DD4F0" stroke-opacity=".7"/>
+<text x="862" y="131.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#2DD4F0" text-anchor="middle" >Mouse</text>
+<text x="978" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Look</text>
+<text x="1058" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >pitch clamped ±80°</text>
+<rect x="836" y="154" width="52" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="862" y="171.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Shift</text>
+<text x="978" y="172" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Sprint</text>
+<text x="1058" y="172" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >7 m/s</text>
+<rect x="836" y="194" width="44.8" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="858.4" y="211.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Ctrl</text>
+<text x="978" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Crouch</text>
+<text x="1058" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >hold · 1.5 m/s · 1 m tall</text>
+<rect x="836" y="234" width="26" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="849" y="251.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >C</text>
+<text x="978" y="252" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Slide</text>
+<text x="1058" y="252" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >while sprinting · 6 m/s</text>
+<rect x="836" y="274" width="52" height="26" rx="6" fill="#FF8A3D" fill-opacity=".12" stroke="#FF8A3D" stroke-opacity=".7"/>
+<text x="862" y="291.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#FF8A3D" text-anchor="middle" >Space</text>
+<text x="978" y="292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Jump</text>
+<text x="1058" y="292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >1.5 m (1 m crouched)</text>
+<rect x="836" y="314" width="26" height="26" rx="6" fill="#2DD4F0" fill-opacity=".12" stroke="#2DD4F0" stroke-opacity=".7"/>
+<text x="849" y="331.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#2DD4F0" text-anchor="middle" >Q</text>
+<rect x="867" y="314" width="26" height="26" rx="6" fill="#2DD4F0" fill-opacity=".12" stroke="#2DD4F0" stroke-opacity=".7"/>
+<text x="880" y="331.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#2DD4F0" text-anchor="middle" >E</text>
+<text x="978" y="332" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3" text-anchor="start" >Lean</text>
+<text x="1058" y="332" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#8C9AAD" text-anchor="start" >±15° around the hips</text>
+</svg>
